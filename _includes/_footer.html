@@ -1,9 +1,99 @@
-    <div id="up-to-top" class="row">
+   <style>
+
+/* The Modal (background) */
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-Anodaz {
+    background-color: transparent;
+    margin: auto;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+}
+@media (min-width: 768px){
+    .modal-content{
+        margin-top: 100px;
+    }
+}
+
+/* The Close Button */
+.close {
+    color: #fff;
+    float: right;
+    font-size: 25px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    border-radius: 25%;
+    width: 14px;
+    background-color: red;
+    font-weight: bold;
+    position: fixed;
+    transform: translate(50%,-50%);
+    top: 50%;
+    left: -50%;
+}
+
+
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#b_icon1").hide();
+$("#b_icon2").hide();
+$("#b_icon3").hide();
+$("#h_icon1").mouseover(function() {
+$("#h_icon1").hide();
+$("#b_icon1").show();
+});
+$("#h_icon2").mouseover(function() {
+$("#h_icon2").hide();
+$("#b_icon2").show();
+});
+$("#h_icon3").mouseover(function() {
+$("#h_icon3").hide();
+$("#b_icon3").show();
+});
+$("#b_icon1").click(function(){
+$("#bannerfloat03").html("");
+});
+});
+</script>
+
+  <!-- Modal content -->
+<div class="modal-Anodaz">
+	<div style="width: 40px; height: 0px; position: relative; transform: translate(50%,-50%); top: 50%; left: 50%;  z-index:9999;" id="h_icon2"><img alt="" src="https://cdn3.iconfinder.com/data/icons/freeapplication/png/24x24/Close.png" /></div>
+	<div style="width: 40px; height: 0px; position: relative; transform: translate(50%,-50%); top: 50%; left: 50%; z-index:9999;" id="b_icon2"><span onmouseup="document.getElementById(\'myModal\').style.display=\'none\'"><img alt="" width="6" height="3" src="http://2.bp.blogspot.com/-MMPpCZmtMOk/Ta7bZ-q_ysI/AAAAAAAAAfo/iRHsnr_ZxVE/s1600/close.png" /></span></div>
+<!----#Begin code ads----->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-7965633876180980"
+     data-ad-slot="1678701350"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!----#End code ads----->
+</div>
+<div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
         <a class="iconfont" href="#top-of-page">&#xf108;</a>
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
-anodaz.php
 
     <footer id="footer-content" class="bg-grau">
       <div id="footer">
